@@ -72,16 +72,3 @@ public class RegistrationController {
 
 
 }
-
-/*
-        try{
-            User user = userService.findUserByEmail(registerForm.getEmail());
-            if(!user.getEmail().isEmpty()){
-                System.out.println("Exists");
-                model.addAttribute("mailError", "exists");
-                return "registration-page";
-            }
-        }catch (NullPointerException e){
-
-        }
-*/
