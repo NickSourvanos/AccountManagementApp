@@ -36,9 +36,7 @@ public class RegisterValidator implements Validator {
                 errors.rejectValue("email", "registerForm.email.exists");
             }
 
-        }catch (NullPointerException e){
-            e.printStackTrace();
-        }
+        }catch (NullPointerException e){}
 
 
 
